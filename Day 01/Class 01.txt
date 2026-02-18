@@ -1,0 +1,63 @@
+<!doctype HTML>		> It tell the version of HTML,
+<html>
+	<head>
+		<title> </title>
+		<meta>
+		<style> </style>
+		<script> </script>
+		<link >
+	</head>
+	<body>
+
+	</body>
+</html>
+
+head : To store information of the webpage
+title :  Title of the Webpage
+meta: data about the data 
+style :  Write Internal CSS
+scritp: It is used for JavaScript
+link: To include css/icon in the webpage 
+
+1. Website
+2. WebPage
+3. Search Engine
+4. Browser
+_________________________________________________
+1. Static Website
+2. Dynamic Website
+_________________________________________________
+Types of Tags:
+	1. Container Tag 
+			<html> </html>
+	2. Standalone Tag
+		<img> <hr>, <br>,...
+
+
+__________________________________________________
+
+Types of List 
+1. Ordered List
+	<ol>
+		<li> </li>
+	</ol>
+2. Un-ordered List
+	<ul>
+		<li> </li>
+	</ul>
+3. Definition/decription List
+
+	<dl>
+		<dt> Definition Term </dt>
+		<dd> Definition DEscription </dd>
+	</dl>
+
+
+
+
+
+
+
+
+
+
