@@ -1,0 +1,25 @@
+Table : Collection of Rows and cols 
+<table> 
+	<thead>
+		<tr>
+			<th> </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> </td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td> </td>
+		</tr>
+	</tfoot>
+</table>
+
+thead : Table Header 
+tbody: Table Body
+tfoot :  Table Footer
+tr: Table Row
+td :  Table data 
+th: Table Heading
