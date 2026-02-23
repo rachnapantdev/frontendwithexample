@@ -1,0 +1,48 @@
+CSS : Cascading Style Sheet
+
+Types of CSS
+1. Inline CSS
+2. Internal CSS
+3. External CSS 
+_________________________________________________________
+
+1. Inline CSS : 
+	Ex: <p style="property : value;">Content  </p>
+
+2. Internal CSS : 
+		<style>
+			selector{
+				property:value;
+			}
+		</style>
+3. External CSS: We write this css in seprate file inside css folder saved with .css extension
+	How we include this css in our html page?
+	<link rel="stylesheet" href="fileaddress" >
+______________________________________________________________________________________________
+
+Selector :
+1. Id Selector (#idName)
+2. Class Selector (.className)
+3. Element Selector (h1)
+4. Universal Selector (*)
+________________________________________________________________________________________________
+
+Properties in CSS:
+
+Text Properties:
+color
+text-align
+text-decoration
+text-transform
+
+
+Font Properties
+font-family
+font-size
+font-weight
+
+
+
+
+
+
