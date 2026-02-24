@@ -1,0 +1,95 @@
+ *{
+      margin: 0;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  nav {
+      background-color: antiquewhite;
+      display: flex;
+  }
+
+  .left-nav {
+      flex: 20%;
+      font-size: 40px;
+      font-weight: bold;
+  }
+
+  .right-nav {
+      flex: 80%;
+      text-align: right;
+  }
+
+  .right-nav ul {
+      list-style-type: none;
+  }
+
+  .right-nav ul li {
+      display: inline-block;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      transition: 2s all;
+
+  }
+
+  .right-nav ul li a {
+      color: black;
+      text-decoration: none;
+  }
+
+  .right-nav ul li:hover {
+      background-color: black;
+  }
+
+  .right-nav ul li:hover a {
+      color: beige;
+  }
+  /* HEader CSS */
+  header{
+    background-color: black;
+  }
+  header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  header ul li{
+    padding: 10px;
+  }
+  
+  header ul li a{
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .fa-facebook{
+    color: rgb(0, 247, 255);
+  }
+  .insta{
+    background-image: linear-gradient(deeppink, purple, rgb(226, 219, 219), blue);
+    background-clip: text;
+    color: transparent;
+  }
+
+  #banner{
+    height: 400px;
+    border: 10px solid;
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+  }
+  #banner p{
+    font-size: 40px;
+  }
+  #banner p span{
+    font-size: 100px;
+    background-image: linear-gradient(blue, green, yellow);
+    background-clip: text;
+    color: transparent;
+  }
+  .right-banner{
+    font-size: 90px;
+  }
+  .right-banner img{
+    height: 400px;
+  }
