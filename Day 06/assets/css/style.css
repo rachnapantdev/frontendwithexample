@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    gap: 10px;
+}
+.items{
+    border: 5px groove goldenrod;
+}
+.one, .footer{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: antiquewhite;
+}
+.row{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+/* Media Query */
+
+@media screen and (min-width:320px) and (max-width:760px)  {
+    body{
+        background-color: aqua;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+    }
+.row{
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.one, .footer{
+
+    grid-column-start: 1;
+    grid-column-end: 1;
+    /* background-color: antiquewhite; */
+}
+}

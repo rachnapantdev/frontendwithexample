@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.first{
+    height: 500px;
+    /* width: 400px; */
+    border: 5px groove wheat;
+    background-position: center;
+    background-size: cover;
+    animation-name: batch1;
+    animation-duration: 3s;
+    animation-delay: .2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Animation */
+@keyframes batch1 {
+    from{
+        /* background-color: palevioletred; */
+        background-image: url("https://cdn.pixabay.com/photo/2017/09/03/00/19/flowers-2708995_1280.png");
+    }
+    to{
+        /* background-color: bisque; */
+        background-image: url("https://cdn.pixabay.com/photo/2020/03/12/22/23/greens-4926370_1280.jpg");
+    }
+}
