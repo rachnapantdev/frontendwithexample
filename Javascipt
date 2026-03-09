@@ -1,0 +1,186 @@
+JavaScript:
+It is an Object based scripting language.
+Which works on Objects.
+
+What is Object?
+Object is a real world entity which have it's own properties and behaviour.
+		Object
+	Properties	Behaviour
+
+EX		CAR
+	Model		drive()	
+	color		start()
+	price		stop()
+
+How we include js in our HTML Page
+
+Internal JavaSCript:
+	<script>
+
+	</script>
+
+For External JS:
+	<script src="main.js"> </script>
+
+How to display data
+
+document.write()
+console.log()
+alert()
+________________________________________________________________
+User Input
+prompt()
+________________________________________________________________
+Event:
+Mouse Event
+	onclick
+
+
+VAriable: Varibale is used to store information.
+	It is like a container which contains value which can changed according to the need.
+
+Ex: let a=10;
+	a -> Variable
+	10-> Value
+
+In JavaScript we have 3 ways to declare a variable :
+	re-decalration		re-initialization
+var 		YES			YES
+let 		NOT			YES
+const 		NOT			NOT
+
+`` :  Template Literals or Backtick
+
+
+Operator :  Operator is a symbol which is used to inform what kind of operation needs to be performed on operands
+
+
+Types of Operators:
+1. Assignment =
+2. Arithmetic 
+3. Logical
+4. Comparision
+		>, <, >=, <= , ==, !=
+		===(Strict Equal)
+		!== (Strict Not Equal)
+5. Inc/dec
+6. Ternary Operator :
+		(condition) ? true : false
+
+Conditional Statements:
+1. if
+2. if else
+3. if else if
+4. Nested if 
+5. switch
+
+Syntax:
+
+	if(condition){
+		Statements;
+	}
+
+Syntax:
+	if (condition){
+		Statements;
+	}
+	else{
+		Statements;
+	}
+
+Syntax: if else if : 
+	if(condition){
+		Statements;
+	}
+	else if(condition){
+		Statements;
+	}
+	.
+	.
+	else {
+		Statements;
+	}
+
+Nested If :
+	Syntax:	
+		if (condition1){
+		
+			if(condition2)
+			{
+				Statements;
+			}
+			else{
+				Statements;
+			}
+		}
+		else{
+			Statements;
+		}
+
+
+5. switch :
+	switch(choice){
+			
+		case number/string:
+			statements;
+			break;
+		.	
+		.
+		default:
+			Statements;	
+	}
+
+_______________________________________________________________________________________
+Loops:
+1. while 
+2. do while
+3. for 
+Syntax:
+1. while :Entry Control loop.
+	while(condition){
+		Statements;
+		inc/dec;
+	}
+2. do while : Exit control loop
+	do{
+		Statements;
+		inc/dec;
+	}while(condition);
+		
+3. for loop:
+		for(initialization; condition; inc/dec){
+			Statements;	
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
