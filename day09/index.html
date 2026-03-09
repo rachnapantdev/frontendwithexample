@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // document.writeln("<h1>Welcome to the Web World with scripts</h1>");
+        // console.log("This will display in console");    
+
+        // Varibale Decalration
+        let pname, price, qty, totalAmt, pImage;
+        // Variable initialization
+        pname = "Tea";
+        price = 20;
+        qty = 60;
+        totalAmt = price * qty;
+        pImage = "https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527_1280.jpg";
+
+        document.writeln(`
+               <ul>
+                    <li> Product Name : ${pname}  </li>
+                    <li> Product Price : ${price}  </li>
+                    <li> Product Qty : ${qty} </li>
+                    <li> Product Total : ${totalAmt}  </li>
+                    <li> Product Image :<img src=${pImage} height="200px">  </li>
+    </ul>
+        `)
+
+    </script>
+
+</body>
+
+</html>
