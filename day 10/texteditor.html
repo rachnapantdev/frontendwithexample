@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            background-color: antiquewhite;
+
+        }
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        textarea {
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div style="width: 100%; margin-left: 20px;">
+            <textarea name="" id="txt" rows="20" onkeyup="keyPressWork()">
+
+        </textarea>
+            <div id="res">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        function keyPressWork() {
+            let result = document.getElementById("txt").value
+            console.log(result);
+            document.getElementById("res").innerHTML = result;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0   ;
+        }
+        .container{
+            display: flex;
+            background-color: antiquewhite;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        #curTime{
+            font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div id="curTime">
+                Time Will Display here 
+            </div>
+    </div>
+    <script>
+       setInterval(()=>{
+ document.getElementById("curTime").innerHTML= new Date().toLocaleTimeString();
+       }, 1000)
+    </script>
+</body>
+</html>

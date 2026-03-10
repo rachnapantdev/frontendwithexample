@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .container div {
+            height: 200px;
+            background-color: thistle;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Loop Work </h1>
+    <script>
+        document.writeln(`<div class="container">`)
+        let ndiv = prompt("Enter the number of divs")
+        for (let n = 1; n <= ndiv; n++) {
+            document.writeln(`<div> ${n} </div>`)
+        }
+        document.writeln(`</div>`);
+    </script>
+
+</body>
+
+</html>

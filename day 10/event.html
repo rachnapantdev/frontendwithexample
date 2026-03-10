@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: 49px;
+        }
+        #curTime{
+            font-size: 90px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="greeting()"> Click Here  </button>
+    <div id="msg">
+        Message Here 
+    </div>
+    <div id="curTime">
+
+    </div>
+    <button onclick="showTime()"> Show Time </button>
+    <script>
+        function greeting(){
+            // alert("Good Afternoon");
+            let d = document.getElementById("msg");
+            console.log(d)
+            d.innerHTML="Good Afternoon";
+
+        }
+      function showTime(){
+        // To display Current Time 
+            document.getElementById("curTime").innerHTML= new Date().toLocaleTimeString();
+        }
+
+    </script>
+</body>
+</html>
