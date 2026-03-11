@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        body{
+            height: 100vh;
+            background-color: blanchedalmond;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            border: 10px groove;
+            padding: 20px 0px;
+            text-align: center;
+            width: 30%;
+        }
+        .card-header , .card-body{
+            border-bottom: 5px inset;
+        }
+        .card-body{
+            padding: 10px 0px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .card-footer{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .card-footer button{
+            font-size: 20px;
+            padding: 5px 15px;
+            background-color: rgb(125, 201, 10);
+            border: none;
+            border-radius: 10px;
+        }
+        #count{
+            display: none;
+        }
+        #count span{
+            margin-left: 6px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+            <div class="card-header">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/3eae3870-eb2a-43eb-ad30-967d17f7d691.png" alt="">
+            </div>
+            <div class="card-body">
+                    Protein Chef Baked Coated Peanuts (Masala Roasted Healthy Snacks)
+            </div>
+            <div class="card-footer">
+                   <span > ₹ <span id="amt">22</span> </span>
+                   <button id="add" onclick="show()"> Add </button> 
+                   <button id="count" >
+                        <span onclick="minus()"> -</span>
+                        <span id="num"> 1 </span>
+                        <span onclick="plus()">+ </span>
+                    </button> 
+            </div>
+    </div>  
+<script src="script.js"></script>
+</body>
+</html>

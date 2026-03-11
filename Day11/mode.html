@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .dark {
+            background-color: black;
+            color: wheat;
+        }
+
+        .light {
+            background-color: wheat;
+            color: black;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 90px;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 5px 15px;
+            background-color: black;
+            color: wheat;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body class="light">
+    <div>
+        <h1> Welcome to the Web World !! </h1>
+        <button onclick="toggleWork()" id="b1"> Dark </button>
+    </div>
+
+
+    <script>
+        let flag = 1;
+        function toggleWork() {
+             if (flag) {
+                document.body.classList.remove("light")
+                document.body.classList.add("dark")
+                document.getElementById("b1").innerHTML='Light'
+                flag=0;
+            }
+            else{
+                document.body.classList.remove("dark")
+                document.body.classList.add("light")
+                document.getElementById("b1").innerHTML='dark'
+                flag=1
+            }
+        }
+    </script>
+</body>
+
+</html>
