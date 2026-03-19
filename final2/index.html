@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body {
+            background-image: linear-gradient(purple, plum);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: antiquewhite; */
+        }
+
+        .container div {
+            width: 70%;
+            background-color: cadetblue;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 10px 0px;
+        }
+
+        .inp {
+            display: flex;
+            justify-content: space-around;
+            border: 5px solid whitesmoke;
+            padding: 20px;
+            gap: 10px;
+            width: 50%;
+        }
+
+        input {
+            padding: 10px;
+            width: 100%;
+        }
+        button{
+            background-color: plum;
+            border:none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        #res , #res2{
+            font-size: 30px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1> Know your Zodiac Sign </h1>
+            <div class="inp">
+                <input type="text" placeholder="Enter your Date " id="d">
+                <input type="text" placeholder="Enter Month" id="m">
+
+            </div>
+            <div>
+                <button onclick="findZodiac()"> Find Zodiac </button>
+                <button onclick="findNumerology()"> Find Numerology </button>
+            </div>
+            <div id="res">
+                    Zodiac Will Display Here 
+            </div>
+            
+            <div id="res2">
+                   Numerology Number will Display Here 
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
